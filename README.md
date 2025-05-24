@@ -20,18 +20,18 @@ This project investigates global population trends using historical demographic 
 - **Python**: pandas, matplotlib, seaborn, scikit-learn  
 - **Machine Learning**: Random Forest Regressor  
 - **Data Preprocessing**: Label Encoding, StandardScaler  
-- **Validation**: `cross_val_score`  
+- **Validation**: cross_val_score
 - **EDA**: Correlation heatmaps, population density analysis, growth trend plots
 
 ---
 
 ## Data Processing & Feature Engineering
 
-- Removed irrelevant columns: `Rank`, `Capital`, `CCA3`, `Continent`  
+- Removed irrelevant columns: "Rank", "Capital", "CCA3", "Continent"  
 - Created new features:  
-  - `Population Change (1970–2022)`  
-  - `Average Annual Growth Rate`  
-- Applied **Label Encoding** on `Country/Territory`  
+  - "Population Change (1970–2022)"  
+  - "Average Annual Growth Rate"  
+- Applied **Label Encoding** on "Country/Territory" 
 - Standardized numeric features using **StandardScaler**
 
 ---
@@ -51,10 +51,10 @@ This project investigates global population trends using historical demographic 
 - **Model Used**: Random Forest Regressor  
 - **Train-Test Split**: 80/20  
 - **Evaluation Metrics**:  
-  - **Mean Absolute Error (MAE)**: `0.0255`  
-  - **Mean Squared Error (MSE)**: `0.0074`  
-  - **R² Score**: `0.9581`  
-  - **Cross-Validation R² Score**: `0.9314`
+  - **Mean Absolute Error (MAE)**: 0.0255  
+  - **Mean Squared Error (MSE)**: 0.0074 
+  - **R² Score**: 0.9581 
+  - **Cross-Validation R² Score**: 0.9314
 
 ---
 
